@@ -1,0 +1,22 @@
+{
+    "name": "photo_uploader",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "watch": "nodemon",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "koa": "^2.7.0",
+        "koa-body": "^4.1.0",
+        "koa-router": "^7.4.0",
+        "sharp": "^0.22.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
+}
